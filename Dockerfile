@@ -35,6 +35,7 @@ RUN echo "Installing dependencies. This will take a while..." && \
     pip install -v --disable-pip-version-check --no-cache-dir --no-build-isolation --config-settings "--build-option=--cpp_ext" --config-settings "--build-option=--cuda_ext" ./apex && \
     rm -rf apex && \
     pip install -v decord==0.6.0 && \
+    pip install -U "huggingface_hub[cli]" \
     echo "Environment setup complete"
 
 # Create Python symlink
