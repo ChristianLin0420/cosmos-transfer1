@@ -240,3 +240,6 @@ manifest.json
 wandb/
 onelogger.err
 onelogger.log
+
+# sbatch_run
+sbatch_run/
