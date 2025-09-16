@@ -45,4 +45,10 @@ RUN apt-get install -y libmagic1
 RUN mkdir -p /workspace
 WORKDIR /workspace
 
-CMD ["/bin/bash"]
+# CMD ["/bin/bash"]
+
+# Set the default shell for runtime
+SHELL ["/bin/bash", "-c"]
+
+# Default command
+CMD ["bash"] 
