@@ -1,0 +1,16 @@
+{
+    "prompt": "An operator uses both hands to route the black cable and press it into the middle section of the fan card slot.",
+    "input_video_path": "videos/assy17/action3.mp4",
+    "vis": {
+        "control_weight": 0.25
+    },
+    "edge": {
+        "control_weight": 0.25
+    },
+    "depth": {
+        "control_weight": 0.25
+    },
+    "seg": {
+        "control_weight": 0.25
+    }
+}
