@@ -240,3 +240,6 @@ manifest.json
 wandb/
 onelogger.err
 onelogger.log
+
+# interactive.sh
+interactive.sh
