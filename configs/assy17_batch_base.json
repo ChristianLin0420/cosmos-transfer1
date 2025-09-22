@@ -1,0 +1,12 @@
+{
+    "prompt": "An operator uses both hands to route the black cable and press it into the middle section of the fan card slot. Turning the background to a modern, well-lit office environment with a sleek, minimalist design, yet the motherboard components, circuit traces, and electronic details must remain exactly as the original with precise technical accuracy.",
+    "input_video_path": "videos/assy17/action3.mp4",
+    "guidance": 8.0,
+    "sigma_max": 90.0,
+    "depth": {
+        "control_weight": 0.9
+    },
+    "seg": {
+        "control_weight": 0.9
+    }
+}
