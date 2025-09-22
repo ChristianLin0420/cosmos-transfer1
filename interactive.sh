@@ -10,3 +10,4 @@ srun \
     --container-image="christianlin0420/cosmos-transfer1:latest" \
     --container-mounts=$HOME:/root,/lustre:/lustre,/lustre/fsw/portfolios/edgeai/users/chrislin/projects/cosmos-transfer1:/workspace/cosmos-transfer1,$HOME/.cache:/root/.cache \
     --pty /bin/bash
+
